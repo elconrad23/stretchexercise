@@ -1,5 +1,5 @@
 const assert = require('chai');
-import {taxcalculator} from '../stretchtest.js';
+import taxcalculator from '../stretchtest.js';
 
 describe('taxcalculator', () => {
     it('less than 12000 means no tax', () => {
